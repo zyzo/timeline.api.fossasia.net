@@ -7,7 +7,6 @@ A flexible jQuery plugin to embed FOSSASIA community timeline to your website.
 
 ```html
 <div id="timeline-id"></div>
-
 <script src="timeline.js"></script>
 <script>
   $('#timeline-id').communityTimeline({});
@@ -60,6 +59,10 @@ A flexible jQuery plugin to embed FOSSASIA community timeline to your website.
 
   By default this value is set to current year in 4-digits. The year of events happening in currentYear will not be displayed in datetime area.
 
-### Showcase
+* **disableScroll**
+ 
+  Disable malihu scrollbar for events list.
+  
+### Examples
 
   http://fossasia.github.io/timeline.api.fossasia.net/
