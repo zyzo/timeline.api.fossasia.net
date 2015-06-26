@@ -13,7 +13,7 @@
     Timeline.DEFAULT_OPTIONS = {
         title : "Community timeline",
         monthsLabels : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-        apiUrl : 'http://localhost/fossasia/common.api.fossasia.net/ics-collector/CalendarAPI.php',
+        apiUrl : 'http://common-fossasia-api.herokuapp.com/ics-collector/CalendarAPI.php',
         source : 'all',
         disableAPISource : false,
         currentYear : '2015',
